@@ -1,0 +1,571 @@
+/* ============================================================
+   Crop Guardian AI — "Cuaderno de campo" theme
+   A field-notebook / herbarium specimen-card aesthetic:
+   aged paper, botanical ink, pressed-leaf cards, stamped labels.
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=Space+Mono:wght@400;700&display=swap");
+
+:root {
+    --paper: #f4eedd;
+    --paper-deep: #ece2c8;
+    --ink: #2f2a1e;
+    --ink-soft: #5b5240;
+    --leaf: #45633a;
+    --leaf-deep: #2f4527;
+    --rust: #b1572f;
+    --rust-deep: #8c4220;
+    --line: #c9bd9a;
+    --line-soft: #ded2ae;
+    --card-shadow: rgba(47, 42, 30, 0.18);
+
+    --font-display: "Spectral", Georgia, serif;
+    --font-label: "Space Mono", "Courier New", monospace;
+}
+
+/* ---------- Dark mode: "cuaderno de campo" nocturno ---------- */
+/* En vez de invertir colores, se mantiene el espíritu botánico
+   con tono musgo/tinta oscura y la misma jerarquía tipográfica. */
+[data-theme="dark"] {
+    --paper: #20241d;
+    --paper-deep: #181b14;
+    --ink: #e9e3d1;
+    --ink-soft: #b3ab92;
+    --leaf: #8fb87a;
+    --leaf-deep: #c3e0a9;
+    --rust: #e08a5b;
+    --rust-deep: #f3ab7c;
+    --line: #4a4f3e;
+    --line-soft: #383c2e;
+    --card-shadow: rgba(0, 0, 0, 0.5);
+}
+
+[data-theme="dark"] body {
+    background-image:
+        radial-gradient(
+            ellipse at top left,
+            rgba(224, 138, 91, 0.06),
+            transparent 55%
+        ),
+        radial-gradient(
+            ellipse at bottom right,
+            rgba(143, 184, 122, 0.07),
+            transparent 55%
+        ),
+        repeating-linear-gradient(
+            0deg,
+            transparent 0px,
+            transparent 27px,
+            rgba(0, 0, 0, 0.12) 28px
+        );
+}
+
+[data-theme="dark"] .card {
+    background: linear-gradient(180deg, #262b1e, var(--paper-deep));
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.04) inset,
+        0 10px 22px -14px var(--card-shadow);
+}
+
+[data-theme="dark"] .container img {
+    border-color: var(--paper-deep);
+}
+
+[data-theme="dark"] input[type="file"]::file-selector-button {
+    color: #1a1f14;
+}
+
+[data-theme="dark"] tr.row-overdue td {
+    background: rgba(224, 138, 91, 0.12);
+}
+
+[data-theme="dark"] tr.row-overdue:hover td {
+    background: rgba(224, 138, 91, 0.18);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--paper);
+    background-image:
+        radial-gradient(
+            ellipse at top left,
+            rgba(177, 87, 47, 0.05),
+            transparent 55%
+        ),
+        radial-gradient(
+            ellipse at bottom right,
+            rgba(69, 99, 58, 0.06),
+            transparent 55%
+        ),
+        repeating-linear-gradient(
+            0deg,
+            transparent 0px,
+            transparent 27px,
+            rgba(47, 42, 30, 0.035) 28px
+        );
+    color: var(--ink);
+    font-family: var(--font-display);
+    margin: 0;
+    min-height: 100vh;
+    transition: background-color 0.25s ease, color 0.25s ease;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 56px 24px 80px;
+    position: relative;
+}
+
+.theme-toggle {
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    line-height: 1;
+    background: var(--paper-deep);
+    border: 1px solid var(--line);
+    border-radius: 50%;
+    cursor: pointer;
+    transition: transform 0.2s ease, background-color 0.25s ease, border-color 0.25s ease;
+}
+
+.theme-toggle:hover {
+    transform: rotate(12deg) scale(1.05);
+    border-color: var(--rust);
+}
+
+@media (max-width: 600px) {
+    .theme-toggle {
+        top: 16px;
+        right: 16px;
+    }
+}
+
+/* ---------- Heading block: looks like the cover label of a field journal ---------- */
+
+.container > h1 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 2.5rem;
+    letter-spacing: 0.01em;
+    color: var(--leaf-deep);
+    margin: 0 0 6px;
+    text-align: center;
+    position: relative;
+}
+
+.container > h1::after {
+    content: "";
+    display: block;
+    width: 96px;
+    height: 2px;
+    margin: 14px auto 0;
+    background: linear-gradient(90deg, transparent, var(--rust), transparent);
+}
+
+.container > p {
+    text-align: center;
+    font-family: var(--font-label);
+    font-size: 0.78rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin: 0 0 40px;
+}
+
+/* ---------- Cards: pressed specimen sheets ---------- */
+
+.card {
+    background: linear-gradient(180deg, #fbf7ec, var(--paper-deep));
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 28px 30px 26px;
+    margin-bottom: 28px;
+    position: relative;
+    box-shadow:
+        0 1px 0 rgba(255, 255, 255, 0.6) inset,
+        0 10px 22px -14px var(--card-shadow);
+}
+
+/* corner pin / specimen tack */
+.card::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+    left: 24px;
+    width: 10px;
+    height: 10px;
+    background: var(--rust);
+    border-radius: 50%;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+/* faint perforated edge along the left, like a torn notebook page */
+.card::after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    bottom: 14px;
+    left: 0;
+    width: 1px;
+    background-image: repeating-linear-gradient(
+        to bottom,
+        var(--line) 0,
+        var(--line) 4px,
+        transparent 4px,
+        transparent 9px
+    );
+}
+
+.card h2 {
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 1.3rem;
+    color: var(--rust-deep);
+    margin: 0 0 18px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed var(--line);
+}
+
+.card p {
+    margin: 0 0 10px;
+    line-height: 1.55;
+    color: var(--ink);
+}
+
+.card p b {
+    font-family: var(--font-label);
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--leaf-deep);
+    display: inline-block;
+    margin-right: 4px;
+}
+
+.card ul {
+    margin: 0 0 14px;
+    padding-left: 0;
+    list-style: none;
+}
+
+.card ul li {
+    position: relative;
+    padding-left: 22px;
+    margin-bottom: 6px;
+    line-height: 1.5;
+}
+
+.card ul li::before {
+    content: "🌿";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    font-size: 0.85em;
+}
+
+/* ---------- Upload form: looks like a specimen intake slip ---------- */
+
+.container > div:has(input[type="file"]) {
+    background: var(--paper-deep);
+    border: 1px dashed var(--line);
+    border-radius: 3px;
+    padding: 28px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+/* ---------- Plant tagging field (UploadForm) ---------- */
+
+.plant-tag-field {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    margin-bottom: 16px;
+}
+
+.plant-tag-field label {
+    font-family: var(--font-label);
+    font-size: 0.72rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--leaf-deep);
+}
+
+.plant-tag-field input[type="text"] {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 1rem;
+    color: var(--ink);
+    background: var(--paper);
+    border: none;
+    border-bottom: 1px dashed var(--line);
+    padding: 6px 4px;
+    text-align: center;
+    width: 220px;
+    outline: none;
+}
+
+.plant-tag-field input[type="text"]:focus {
+    border-bottom-color: var(--rust);
+}
+
+.plant-tag-error {
+    font-family: var(--font-label);
+    font-size: 0.78rem;
+    color: var(--rust-deep);
+    text-align: center;
+    margin: 0 0 12px;
+}
+
+input[type="file"] {
+    font-family: var(--font-label);
+    font-size: 0.85rem;
+    color: var(--ink-soft);
+    background: var(--paper);
+    border: 1px solid var(--line);
+    border-radius: 3px;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+
+input[type="file"]::file-selector-button {
+    font-family: var(--font-label);
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background: var(--leaf);
+    border: none;
+    border-radius: 2px;
+    padding: 8px 14px;
+    margin-right: 12px;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+input[type="file"]::file-selector-button:hover {
+    background: var(--leaf-deep);
+}
+
+.container img {
+    display: block;
+    margin: 18px auto 0;
+    border: 6px solid #fff;
+    outline: 1px solid var(--line);
+    box-shadow: 0 8px 18px -10px var(--card-shadow);
+    border-radius: 2px;
+}
+
+/* ---------- History table: looks like a logbook ledger ---------- */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: var(--font-label);
+    font-size: 0.85rem;
+}
+
+thead th {
+    text-align: left;
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--leaf-deep);
+    padding: 8px 10px;
+    border-bottom: 2px solid var(--leaf);
+}
+
+tbody td {
+    padding: 9px 10px;
+    border-bottom: 1px solid var(--line-soft);
+    color: var(--ink);
+}
+
+tbody tr:hover td {
+    background: rgba(177, 87, 47, 0.06);
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* ---------- Plant tracking table (HistoryTable) ---------- */
+
+.plant-empty {
+    font-family: var(--font-label);
+    font-size: 0.82rem;
+    color: var(--ink-soft);
+    text-align: center;
+    padding: 12px 0;
+}
+
+.history-subtitle {
+    margin-top: 32px;
+}
+
+.plant-name-cell {
+    font-family: var(--font-label);
+    font-weight: 700;
+}
+
+tr.row-overdue td {
+    background: rgba(177, 47, 31, 0.08);
+    color: var(--rust-deep);
+}
+
+tr.row-overdue .plant-name-cell {
+    color: var(--rust-deep);
+}
+
+tr.row-overdue:hover td {
+    background: rgba(177, 47, 31, 0.14);
+}
+
+.overdue-badge {
+    display: inline-block;
+    font-family: var(--font-label);
+    font-weight: 700;
+    font-size: 0.72rem;
+    letter-spacing: 0.02em;
+    color: #fff;
+    background: var(--rust);
+    border-radius: 2px;
+    padding: 4px 8px;
+    animation: pulse-overdue 2.4s ease-in-out infinite;
+}
+
+@keyframes pulse-overdue {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.75; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .overdue-badge {
+        animation: none;
+    }
+}
+
+/* ---------- Expandable plant detail row ---------- */
+
+tr.row-clickable {
+    cursor: pointer;
+}
+
+.row-caret {
+    display: inline-block;
+    width: 14px;
+    color: var(--rust);
+    font-size: 0.8em;
+}
+
+tr.row-detail td {
+    background: var(--paper-deep);
+    padding: 0;
+    border-bottom: 1px solid var(--line);
+}
+
+.plant-detail {
+    padding: 16px 18px 14px 36px;
+    border-left: 3px solid var(--leaf);
+}
+
+.plant-detail-block {
+    margin-bottom: 12px;
+}
+
+.plant-detail-block:last-of-type {
+    margin-bottom: 0;
+}
+
+.plant-detail-label {
+    display: block;
+    font-family: var(--font-label);
+    font-weight: 700;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--leaf-deep);
+    margin-bottom: 3px;
+}
+
+.plant-detail-block p,
+.plant-detail-urgencia {
+    margin: 0;
+    line-height: 1.5;
+    color: var(--ink);
+}
+
+.plant-detail-urgencia {
+    margin-top: 12px;
+    font-size: 0.9rem;
+}
+
+.plant-actions-cell {
+    text-align: right;
+    width: 36px;
+}
+
+.delete-plant-btn {
+    background: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    line-height: 1;
+    padding: 4px 7px;
+    cursor: pointer;
+    opacity: 0.55;
+    transition: opacity 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.delete-plant-btn:hover {
+    opacity: 1;
+    border-color: var(--rust);
+    background: rgba(177, 87, 47, 0.08);
+}
+
+.delete-plant-btn:disabled {
+    opacity: 0.3;
+    cursor: default;
+}
+
+/* ---------- Misc / accessibility ---------- */
+
+a {
+    color: var(--rust);
+}
+
+::selection {
+    background: rgba(69, 99, 58, 0.25);
+}
+
+:focus-visible {
+    outline: 2px solid var(--rust);
+    outline-offset: 2px;
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 36px 16px 56px;
+    }
+    .container > h1 {
+        font-size: 1.9rem;
+    }
+    .card {
+        padding: 22px 18px 20px;
+    }
+}

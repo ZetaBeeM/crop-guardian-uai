@@ -1,0 +1,9 @@
+flask
+flask-cors
+azure-cosmos
+python-dotenv
+pytest
+requests
+torch
+torchvision
+pillow

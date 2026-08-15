@@ -1,0 +1,1052 @@
+[
+  {
+    "archivo": "01.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Lesiones oscuras y hundidas en el extremo distal del fruto",
+        "Áreas necróticas marrón-negras en la base del fruto",
+        "Frutos aún verdes con daño localizado en el ápice floral"
+      ],
+      "severidad": "Media",
+      "confianza": 0.97,
+      "razonamiento": "Se observan frutos de tomate con una mancha oscura, seca y hundida en el extremo floral, un patrón visual típico de podredumbre apical. El resto del fruto mantiene color verde normal y no se aprecian otras lesiones extensas en la planta.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "02.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Pudrición apical",
+      "sintomas": [
+        "Lesiones oscuras y hundidas en el extremo floral del fruto",
+        "Manchas necróticas marrón-grisáceas en varios tomates",
+        "Afectación visible en múltiples frutos del racimo",
+        "Superficie del fruto arrugada y deteriorada en la zona lesionada"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.95,
+      "razonamiento": "Se observan varios frutos de tomate con necrosis oscura, hundida y localizada principalmente en el extremo floral, un patrón visual típico de pudrición apical. La repetición del mismo síntoma en distintos frutos refuerza el diagnóstico.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "03.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Pudrición apical",
+      "sintomas": [
+        "Lesiones oscuras, hundidas y secas en el extremo distal del fruto",
+        "Necrosis circular en la parte inferior de varios tomates",
+        "Daño repetido en múltiples frutos de distinto grado de maduración"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.97,
+      "razonamiento": "Se observan frutos de tomate con áreas necróticas hundidas y oscuras en el extremo floral, con aspecto seco y coriáceo, un patrón visual típico de pudrición apical. El daño está presente en varios frutos, lo que indica afectación extensa.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "04.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Pudrición apical",
+      "sintomas": [
+        "Lesión גדולה marrón oscura y seca en el extremo del fruto",
+        "Tejido hundido y coriáceo",
+        "Pequeños puntos oscuros sobre la zona necrótica",
+        "Coloración anormal concentrada en una sola área del fruto"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.87,
+      "razonamiento": "Se observa un fruto de tomate con una gran lesión necrosada, seca y hundida en el extremo opuesto al pedúnculo, compatible visualmente con pudrición apical. El tejido afectado presenta aspecto coriáceo y decoloración marrón extensa, mientras el resto del fruto mantiene coloración normal.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "05.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Mancha oscura y necrótica en el extremo distal del fruto",
+        "Lesión deprimida en la base del fruto",
+        "Tejido afectado de color marrón a negro"
+      ],
+      "severidad": "Media",
+      "confianza": 0.96,
+      "razonamiento": "Se observa un fruto de tomate con una lesión oscura, hundida y localizada en el extremo opuesto al pedúnculo, patrón visual típico de podredumbre apical.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "06.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Lesión oscura y hundida en el extremo distal del fruto",
+        "Área necrótica negra/café en la base del fruto",
+        "Fruto todavía verde con daño localizado"
+      ],
+      "severidad": "Media",
+      "confianza": 0.95,
+      "razonamiento": "Se observa un fruto de tomate con una lesión amplia, oscura y hundida en el extremo floral, patrón visual típico de podredumbre apical. El resto del fruto se ve relativamente sano y el daño está concentrado en una sola zona.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "07.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Lesiones necróticas oscuras en el extremo distal del fruto",
+        "Tejido hundido y seco",
+        "Moteado pardo-negruzco en varios frutos",
+        "Afectación visible en múltiples frutos"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.95,
+      "razonamiento": "Se observan frutos de tomate con áreas grandes, hundidas, oscuras y secas en el extremo floral, con aspecto coriáceo y necrosado, un patrón visual típico de podredumbre apical. La afectación está presente en varios frutos y ocupa una proporción importante de su superficie.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "08.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Lesiones oscuras, hundidas y necróticas en el extremo apical del fruto",
+        "Tejido seco y coriáceo en la zona afectada",
+        "Moteado pardo-negro localizado en varios frutos"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.92,
+      "razonamiento": "Los frutos muestran una necrosis grande, oscura y deprimida en el extremo floral, con aspecto seco y coriáceo, un patrón visual típico de podredumbre apical en tomate. La afectación aparece en varios frutos y ocupa una porción importante de la superficie.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "09.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Lesiones oscuras y hundidas en el extremo floral del fruto",
+        "Tejido seco, coriáceo y necrosado",
+        "Frutos parcialmente deformados por la pudrición"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.92,
+      "razonamiento": "Se observan frutos de tomate con necrosis marrón oscura y aspecto seco/coriáceo concentrado en el extremo opuesto al pedúnculo, un patrón visual típico de podredumbre apical.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "10.jpg",
+    "real": "Blossom End Rot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Pudrición apical",
+      "sintomas": [
+        "Lesiones oscuras, hundidas y necróticas en el extremo distal del fruto",
+        "Áreas marrón oscuro a negras con aspecto coriáceo",
+        "Frutos afectados en distintos grados de desarrollo"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.94,
+      "razonamiento": "Se observan frutos de tomate con necrosis oscura concentrada en el extremo floral, patrón visual típico de pudrición apical. La lesión es amplia y afecta varios frutos, lo que sugiere un nivel de daño elevado.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "11.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre del extremo del tallo",
+      "sintomas": [
+        "Lesión necrótica oscura en la zona peduncular",
+        "Tejido hundido y ennegrecido",
+        "Grietas/rajaduras radiales alrededor de la lesión",
+        "Decoloración localizada del fruto"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.72,
+      "razonamiento": "Se observa un fruto de tomate con una lesión oscura y hundida concentrada en el extremo donde se une el pedúnculo, con necrosis extensa y grietas alrededor. El patrón visible es más consistente con podredumbre en el extremo del tallo que con un daño superficial uniforme.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "12.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Rajado fisiológico del fruto",
+      "sintomas": [
+        "Fruto maduro de color anaranjado/rojizo",
+        "Grieta longitudinal amplia en la superficie del fruto",
+        "Apertura de la piel con exposición del tejido interno",
+        "Cáliz verde visible en la parte superior"
+      ],
+      "severidad": "Media",
+      "confianza": 0.92,
+      "razonamiento": "Se observa un fruto de tomate con una fisura longitudinal marcada y separación de la epidermis, patrón compatible con rajado fisiológico. La imagen es clara y permite identificar la planta y el daño visible en el fruto.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "13.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Fruto agrietado o rajado longitudinalmente",
+        "Hendidura abierta en la superficie del fruto",
+        "Tejido interno expuesto",
+        "Coloración rojiza del fruto maduro"
+      ],
+      "severidad": "Media",
+      "confianza": 0.83,
+      "razonamiento": "La imagen muestra un fruto de tomate con una grieta longitudinal amplia que expone el interior. No se observan manchas foliares, moho ni lesiones típicas de una infección; el hallazgo principal es el rajado del fruto visible externamente.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "14.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Agrietamiento concéntrico del fruto",
+      "sintomas": [
+        "Fruto verde con grietas concéntricas alrededor de la zona apical",
+        "Superficie del fruto con cicatrices corchosas blanquecinas",
+        "Deformación superficial localizada"
+      ],
+      "severidad": "Media",
+      "confianza": 0.79,
+      "razonamiento": "La imagen muestra un fruto de tomate con anillos concéntricos de grietas/cicatrices corchosas en la superficie, un patrón visual compatible con agrietamiento concéntrico. No se observan signos claros de pudrición ni de lesiones fúngicas extendidas.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "15.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Cicatriz lineal corky en la superficie del fruto",
+        "Deformación superficial del fruto",
+        "Discoloración leve alrededor de la lesión"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.74,
+      "razonamiento": "La imagen muestra un fruto redondo de tomate con una cicatriz larga y sinuosa en la parte superior, de aspecto corchoso, y una marca alrededor del pedúnculo. No se observan pudrición extensa, moho ni colapso del tejido, por lo que el daño parece principalmente superficial.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "16.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Fruto agrietado con fisura longitudinal",
+        "Exposición de tejido interno rojo",
+        "Superficie del fruto aparentemente tensa y abierta en la zona de ruptura"
+      ],
+      "severidad": "Media",
+      "confianza": 0.84,
+      "razonamiento": "La imagen muestra claramente un fruto de tomate. El rasgo visual dominante es una grieta profunda y abierta en el fruto, con separación del tejido en la zona central. No se observan manchas foliares, pudrición extensa ni signos claros de moho; por la apariencia, corresponde más a un daño físico o fisiológico visible que a una enfermedad específica identificable solo con esta imagen.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "17.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Agrietamiento del fruto (desorden fisiológico)",
+      "sintomas": [
+        "Fruto maduro con grieta longitudinal profunda",
+        "Fisura abierta cerca de la zona peduncular",
+        "Cicatrización/tejido expuesto en el borde de la grieta",
+        "Superficie del fruto generalmente sana fuera de la grieta"
+      ],
+      "severidad": "Media",
+      "confianza": 0.91,
+      "razonamiento": "La imagen muestra un tomate con una grieta grande y bien definida que recorre parte del fruto desde la zona superior hacia el costado. No se observan manchas típicas de pudrición, mohos ni lesiones múltiples; el signo dominante es el rajado del fruto, compatible con agrietamiento fisiológico visible.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "18.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Rajado fisiológico del fruto",
+      "sintomas": [
+        "Fruto con grieta longitudinal profunda",
+        "Fisura visible cerca del pedúnculo",
+        "Coloración de maduración parcial verde-amarilla-anaranjada"
+      ],
+      "severidad": "Media",
+      "confianza": 0.86,
+      "razonamiento": "Se observa un fruto de tomate con una abertura longitudinal marcada desde la zona del pedúnculo hacia la parte media del fruto. No se aprecian lesiones fúngicas típicas como moho, manchas necróticas extensas o pudrición. El patrón visible es más compatible con rajado fisiológico del fruto.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "19.jpg",
+    "real": "Fruit Cracking",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Fruto con lesión lineal/cicatriz superficial de color claro",
+        "Fruto maduro con deformación leve de la superficie",
+        "Frutos vecinos aparentemente sanos"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.45,
+      "razonamiento": "La imagen muestra racimos de tomate con un fruto rojo y una marca clara, curva y superficial en la piel. No se observan manchas extensas, pudrición, micelio ni necrosis generalizada. La evidencia visual no es suficiente para asignar una enfermedad específica con certeza.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "20.jpg",
+    "real": "Gray Mold",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre del extremo del pedúnculo",
+      "sintomas": [
+        "Lesión parda oscura y seca en la zona superior del fruto",
+        "Tejido necrosado y de aspecto coriáceo alrededor del pedúnculo",
+        "Fruto mayormente amarillo con área afectada localizada"
+      ],
+      "severidad": "Media",
+      "confianza": 0.56,
+      "razonamiento": "Se observa un fruto de tomate con una lesión extensa, seca y parda concentrada en la inserción del pedúnculo, con apariencia de necrosis superficial y hundimiento local. El resto del fruto conserva coloración normal en gran parte.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "21.jpg",
+    "real": "Gray Mold",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Moho gris (Botrytis cinerea)",
+      "sintomas": [
+        "Crecimiento fúngico blanquecino/grisáceo y algodonoso sobre el fruto",
+        "Lesión necrótica oscura y húmeda en la superficie del tomate",
+        "Pudrición localizada en varios frutos",
+        "Tejido del fruto deteriorado en la zona afectada"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.86,
+      "razonamiento": "Se observan frutos de tomate con una colonia fúngica visible de aspecto algodonoso blanco-gris y una zona necrótica oscura en el fruto, compatible con pudrición por hongo. La afección está presente en más de un fruto, lo que sugiere un problema establecido.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "22.jpg",
+    "real": "Gray Mold",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Moho gris (Botrytis cinerea)",
+      "sintomas": [
+        "Fruto rojo de tomate",
+        "Lesión oscura y necrosada en el extremo peduncular",
+        "Presencia de micelio blanco algodonoso",
+        "Deformación y deterioro localizado del tejido"
+      ],
+      "severidad": "Media",
+      "confianza": 0.71,
+      "razonamiento": "La imagen muestra un fruto de tomate con una zona necrótica en el extremo del cáliz y crecimiento blanco algodonoso compatible con desarrollo fúngico visible. El resto del fruto conserva coloración general roja, por lo que la afectación parece localizada.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "23.jpg",
+    "real": "Late Blight",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Frutos deformados",
+        "Áreas necróticas oscuras en los extremos del fruto",
+        "Tejido marrón y negro",
+        "Marchitez y desecación visible en los frutos",
+        "Lesiones extensas en la superficie del fruto"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.72,
+      "razonamiento": "Se observan frutos de tomate con deformación marcada y zonas oscuras, secas y hundidas en los extremos, compatibles visualmente con podredumbre apical. El daño ocupa una porción amplia de ambos frutos.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "24.jpg",
+    "real": "Late Blight",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Lesión marrón/bronzeada en la superficie del fruto",
+        "Pequeñas manchas oscuras en algunos frutos",
+        "Discoloración localizada en frutos verdes"
+      ],
+      "severidad": "Media",
+      "confianza": 0.54,
+      "razonamiento": "Se observan frutos de tomate con una lesión marrón amplia y superficiales manchas oscuras, mientras el follaje alrededor se ve mayormente verde. La evidencia visual sugiere un problema localizado en los frutos, pero no permite distinguir con certeza una enfermedad específica.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "25.jpg",
+    "real": "Late Blight",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Antracnosis del fruto",
+      "sintomas": [
+        "frutos verdes con manchas marrones/necrosadas",
+        "lesiones localizadas en la zona del hombro del fruto",
+        "decoloración irregular en la superficie del fruto",
+        "aspecto de daño superficial en varios frutos del racimo"
+      ],
+      "severidad": "Media",
+      "confianza": 0.66,
+      "razonamiento": "Se observan frutos de tomate aún verdes con áreas marrón oscuro y necrosadas principalmente en la parte superior y lateral de varios frutos. El patrón es compatible con una pudrición/lesión del fruto de apariencia localizada más que con un amarillamiento general de la planta. La imagen no permite ver con claridad detalles suficientes para una identificación definitiva de la enfermedad.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "26.jpg",
+    "real": "Late Blight",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Lesiones marrones oscuras en el extremo floral del fruto",
+        "Áreas deprimidas y necrosadas",
+        "Tejido afectado de aspecto coriáceo"
+      ],
+      "severidad": "Media",
+      "confianza": 0.95,
+      "razonamiento": "Se observan frutos de tomate con manchas marrones y hundidas concentradas en el extremo opuesto al pedúnculo, con aspecto seco y corchoso, patrón visual compatible con podredumbre apical.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "27.jpg",
+    "real": "White Mold",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Moho gris (Botrytis) / pudrición fúngica de fruto",
+      "sintomas": [
+        "Manchas blanquecinas y grisáceas con aspecto algodonoso",
+        "Tejido necrótico oscuro y podrido",
+        "Colapso y deterioro del fruto",
+        "Lesiones extensas en la superficie de varios tomates"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.82,
+      "razonamiento": "Se observan frutos de tomate con crecimiento fúngico visible, zonas gris-blancas algodonosas y áreas negras de pudrición, compatibles con una infección avanzada en varios frutos.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "28.jpg",
+    "real": "White Mold",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Moho gris (Botrytis cinerea)",
+      "sintomas": [
+        "Presencia de crecimiento fúngico blanquecino/grisáceo sobre la superficie del fruto",
+        "Tejido del fruto con apariencia de deterioro y posible pudrición superficial",
+        "Arrugamiento leve de la piel en la zona afectada"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.78,
+      "razonamiento": "Se observa un fruto de tomate con colonización fúngica visible de aspecto algodonoso blanco-gris en la parte superior, acompañada de deterioro superficial del tejido. La morfología del fruto y el patrón de moho visible son compatibles con una infección por Botrytis o una pudrición fúngica similar.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "29.jpg",
+    "real": "White Mold",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Moho blanco",
+      "sintomas": [
+        "Lesión extensa blanquecina con aspecto algodonoso",
+        "Áreas necróticas oscuras alrededor de la lesión",
+        "Pudrición visible del fruto"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.74,
+      "razonamiento": "Se observa un fruto de tomate con una colonia fúngica blanca y densa ocupando gran parte de la superficie, acompañada de tejido oscuro y colapsado en el área afectada. El patrón visual es compatible con una pudrición por moho blanco.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "30.jpg",
+    "real": "White Mold",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Moho gris (Botrytis cinerea)",
+      "sintomas": [
+        "Crecimiento fúngico algodonoso blanco-grisáceo sobre el fruto",
+        "Zona de pudrición visible en la superficie del tomate",
+        "Degradación tisular localizada alrededor del área afectada"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.93,
+      "razonamiento": "Se observa un fruto de tomate con abundante micelio blanco-grisáceo y aspecto algodonoso característico de un hongo superficial, junto con una lesión de pudrición visible en el fruto. La distribución y textura del crecimiento fúngico sugieren moho gris.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "31.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Pudrición apical",
+      "sintomas": [
+        "Lesión circular hundida en el extremo floral del fruto",
+        "Áreas pardas a oscuras en el centro de la lesión",
+        "Tejido seco y necrosado alrededor de la mancha",
+        "Superficie del fruto con apariencia alterada solo en una zona localizada"
+      ],
+      "severidad": "Media",
+      "confianza": 0.96,
+      "razonamiento": "Se observa un fruto de tomate con una lesión deprimida y oscura en el extremo opuesto al pedúnculo, patrón visual típico de pudrición apical. Los demás frutos visibles no muestran daño comparable.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "32.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Lesión circular oscura y necrótica en el fruto",
+        "Zona central marrón/negra con aspecto hundido",
+        "Presencia de halo blanquecino/grisáceo alrededor de la lesión"
+      ],
+      "severidad": "Media",
+      "confianza": 0.61,
+      "razonamiento": "La imagen muestra un fruto rojo compatible con tomate y una lesión redondeada, parda a negra, con centro más oscuro y borde descolorido. El daño es localizado en el fruto y ocupa una porción moderada de la superficie visible.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "33.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Mancha bacteriana",
+      "sintomas": [
+        "Lesiones circulares oscuras en el fruto",
+        "Centro amarillento/costroso",
+        "Áreas hundidas alrededor de las manchas",
+        "Halo necrótico marrón oscuro"
+      ],
+      "severidad": "Media",
+      "confianza": 0.67,
+      "razonamiento": "Se observa un fruto rojo de tomate con dos lesiones redondeadas, deprimidas y de borde oscuro, con centro amarillento y aspecto costroso. La distribución y el patrón de las manchas son compatibles visualmente con una lesión bacteriana en fruto.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "34.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Antracnosis",
+      "sintomas": [
+        "Lesión circular oscura y hundida en el fruto",
+        "Centro necrosado con presencia de crecimiento blanquecino/grisáceo",
+        "Halo periférico rojizo a violáceo alrededor de la lesión",
+        "Daño localizado en la superficie del fruto"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.74,
+      "razonamiento": "Se observa un fruto de tomate con una lesión redondeada, deprimida y oscura, con tejido central necrosado y material blanquecino/grisáceo compatible con colonización fúngica visible. El patrón es más consistente con una pudrición/antracnosis de fruto que con un daño mecánico simple.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "35.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Tizón tardío",
+      "sintomas": [
+        "Manchas pardas irregulares en el fruto",
+        "Lesiones oscuras y necróticas en la superficie del tomate",
+        "Hojas con aspecto marchito y zonas secas"
+      ],
+      "severidad": "Media",
+      "confianza": 0.74,
+      "razonamiento": "Se observa un fruto de tomate con manchas marrones irregulares y áreas necróticas visibles, junto con follaje cercano deteriorado. El patrón visual es compatible con una enfermedad tipo tizón en tomate.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "36.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Antracnosis",
+      "sintomas": [
+        "Lesiones circulares y hundidas en el fruto",
+        "Centro oscuro con borde más claro",
+        "Manchas necróticas localizadas en la superficie del tomate",
+        "Presencia de decoloración alrededor de la lesión"
+      ],
+      "severidad": "Media",
+      "confianza": 0.55,
+      "razonamiento": "Se observan frutos de tomate con lesiones redondeadas, deprimidas y de color pardo oscuro a negro, con un halo más claro alrededor. El patrón es compatible visualmente con una pudrición o mancha fúngica superficial en fruto maduro.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "37.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Antracnosis probable",
+      "sintomas": [
+        "Lesión circular hundida en el fruto",
+        "Centro necrótico u oscurecido",
+        "Halo grisáceo alrededor de la lesión",
+        "Pequeña zona de deterioro superficial en la piel"
+      ],
+      "severidad": "Media",
+      "confianza": 0.72,
+      "razonamiento": "Se observa un fruto de tomate con una lesión redondeada, hundida y oscura, con apariencia de tejido necrosado en el centro y borde más claro alrededor. El resto del fruto mantiene coloración relativamente normal, por lo que el daño visible parece localizado.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "38.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Antracnosis",
+      "sintomas": [
+        "Lesiones hundidas y oscuras en el fruto",
+        "Manchas circulares con centro necrosado",
+        "Áreas de decoloración marrón-grisácea alrededor de las lesiones",
+        "Pequeñas cicatrices superficiales adicionales en la piel del fruto"
+      ],
+      "severidad": "Media",
+      "confianza": 0.78,
+      "razonamiento": "Se observa un fruto de tomate con varias lesiones deprimidas, oscuras y bien delimitadas, algunas con aspecto de tejido colapsado en el centro. La distribución de las manchas en la superficie del fruto y su apariencia necrosada son compatibles visualmente con antracnosis.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "39.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Lesiones oscuras y hundidas en la superficie del fruto",
+        "Áreas corchosas/cicatrizadas alrededor de varias manchas",
+        "Pequeñas pústulas o puntos necróticos dispersos",
+        "Daño localizado en el fruto maduro"
+      ],
+      "severidad": "Media",
+      "confianza": 0.72,
+      "razonamiento": "El fruto parece ser un tomate por su forma, color y cáliz visible. Se observan varias lesiones hundidas, oscuras y cicatrizadas en la superficie, compatibles con daño patológico o fisiológico en fruto, pero la imagen no permite distinguir con suficiente claridad una enfermedad específica.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "40.jpg",
+    "real": "Anthracnose",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Antracnosis",
+      "sintomas": [
+        "Lesiones circulares y hundidas en el fruto",
+        "Tejido necrótico oscuro en el centro de las lesiones",
+        "Áreas corchosas y agrietadas alrededor de las manchas",
+        "Superficie del fruto con daño localizado en varias zonas"
+      ],
+      "severidad": "Media",
+      "confianza": 0.68,
+      "razonamiento": "Se observa un fruto de tomate con varias lesiones redondeadas, hundidas y necróticas, algunas con aspecto corchoso y bordes irregulares. El patrón visual es compatible con una pudrición/lesión fúngica en fruto, siendo antracnosis una posibilidad probable.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "41.jpg",
+    "real": "Catfacing",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Lesión oscura, seca y coriácea en el fruto",
+        "Tejido necrótico marrón-negro",
+        "Área hundida y agrietada en una parte del tomate",
+        "Afectación localizada en un fruto en desarrollo"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.74,
+      "razonamiento": "La imagen muestra un fruto de tomate con una lesión grande, oscura, seca y de aspecto coriáceo en el extremo del fruto, con tejido necrosado y hundido. El patrón visual es compatible con podredumbre apical.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "42.jpg",
+    "real": "Catfacing",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Frutos deformados y muy lobulados",
+        "Presencia de grietas y rajaduras en la superficie",
+        "Cicatrices y zonas irregulares en la piel del fruto"
+      ],
+      "severidad": "Media",
+      "confianza": 0.74,
+      "razonamiento": "Se observan tomates con deformación marcada del fruto, superficie irregular y grietas visibles en la piel. La evidencia visual sugiere un problema de tipo fisiológico o de daño en el desarrollo del fruto, pero no permite identificar con certeza una enfermedad específica.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "43.jpg",
+    "real": "Catfacing",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Antracnosis",
+      "sintomas": [
+        "Áreas necróticas marrones y secas en el fruto",
+        "Tejido coriáceo y colapsado alrededor de la zona afectada",
+        "Fisuración y deformación del fruto",
+        "Lesión extensa concentrada cerca de la inserción del pedúnculo"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.54,
+      "razonamiento": "Se observa un fruto de tomate con una lesión amplia, marrón y necrosada, de aspecto seco y coriáceo, con colapso del tejido y grietas alrededor de la zona afectada. La imagen muestra un daño avanzado en buena parte del fruto.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "44.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Frutos rojos maduros",
+        "Superficie lisa y uniforme",
+        "Sin manchas, pudrición ni lesiones visibles"
+      ],
+      "severidad": "Desconocida",
+      "confianza": 0.92,
+      "razonamiento": "Se observan frutos de tomate maduros con coloración uniforme y sin señales visuales claras de lesión, necrosis, moho, manchas o deformaciones evidentes en la imagen.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "45.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Tizón temprano (posible)",
+      "sintomas": [
+        "Manchas necróticas oscuras en hojas",
+        "Lesiones foliares pequeñas con centro más claro",
+        "Tejido foliar parcialmente seco o deteriorado",
+        "Frutos con coloración pálida/amarillenta e irregular"
+      ],
+      "severidad": "Media",
+      "confianza": 0.49,
+      "razonamiento": "La planta muestra hojas de tomate con lesiones oscuras y áreas de necrosis compatibles con una enfermedad foliar. También se observan frutos con maduración o coloración irregular. La evidencia visual no permite confirmar con certeza una enfermedad específica.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "46.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Tizón temprano",
+      "sintomas": [
+        "Manchas necróticas marrones en hojas",
+        "Clorosis intervenal",
+        "Enrollamiento y marchitez foliar",
+        "Áreas foliares secas y necrosadas",
+        "Lesiones oscuras dispersas en varios folíolos"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.71,
+      "razonamiento": "Se observa una planta de tomate con múltiples hojas afectadas por lesiones marrones secas, clorosis entre nervaduras y deterioro general del follaje. El patrón de manchas necróticas extensas en hojas más viejas es compatible visualmente con un tizón foliar, siendo el tizón temprano la opción más probable.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "47.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Hojas con amarillamiento parcial",
+        "Aspecto general de follaje algo debilitado",
+        "Frutos en desarrollo visibles"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.73,
+      "razonamiento": "Se observa una planta de tomate con frutos verdes y varias hojas con clorosis leve o amarillamiento en algunas zonas. No se distinguen manchas necróticas claras, moho, lesiones definidas ni patrones diagnósticos suficientes para asignar una enfermedad específica.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "48.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Mancha foliar por Septoria / complejo de manchas foliares",
+      "sintomas": [
+        "Hojas con múltiples manchas pequeñas oscuras",
+        "Áreas necróticas y secas en hojas inferiores",
+        "Amarillamiento y deterioro general del follaje",
+        "Enrollamiento y debilitamiento de hojas y tallos"
+      ],
+      "severidad": "Media",
+      "confianza": 0.67,
+      "razonamiento": "La planta muestra rasgos compatibles con tomate y presenta numerosas lesiones foliares pequeñas, necrosis en hojas bajas y amarillamiento extendido. El patrón visible sugiere una enfermedad de mancha foliar, aunque la imagen no permite distinguir con total certeza entre Septoria y otras causas similares.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "49.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [],
+      "severidad": "Desconocida",
+      "confianza": 0.97,
+      "razonamiento": "Se observan frutos de tomate sanos, con color rojo uniforme y superficie lisa. No se aprecian manchas, pudrición, deformaciones, necrosis ni otros síntomas visuales compatibles con enfermedad.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "50.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Frutos verdes sin lesiones evidentes",
+        "Superficie lisa y uniforme",
+        "No se observan manchas, pudrición ni deformaciones claras"
+      ],
+      "severidad": "Desconocida",
+      "confianza": 0.77,
+      "razonamiento": "Se observan varios frutos de tomate verdes con forma regular y sin signos visuales claros de enfermedad en la superficie. La imagen muestra también chiles rojos, pero la planta principal evaluable parece ser tomate. No hay evidencia visible suficiente de daño patológico.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "51.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Frutos verdes en desarrollo",
+        "Superficie del fruto aparentemente uniforme",
+        "No se observan manchas, necrosis ni deformaciones claras"
+      ],
+      "severidad": "Desconocida",
+      "confianza": 0.94,
+      "razonamiento": "Se observan frutos de tomate verdes, colgando en racimo, con forma regular y sin lesiones visibles, decoloración marcada ni signos evidentes de daño foliar o en fruto.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "52.jpg",
+    "real": "Healthy",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Frutos verdes sin manchas visibles",
+        "Follaje aparentemente sano",
+        "No se observan lesiones, necrosis ni pudrición"
+      ],
+      "severidad": "Desconocida",
+      "confianza": 0.89,
+      "razonamiento": "La imagen muestra racimos de tomate con frutos firmes y uniformemente verdes, sin manchas, halos, deformaciones marcadas ni signos visuales claros de infección. El follaje visible también se observa mayormente sano.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "53.jpg",
+    "real": "Bacterial Spot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Podredumbre apical",
+      "sintomas": [
+        "Fruto verde con lesiones circulares pardas y corchosas",
+        "Áreas deprimidas y necrosadas en el extremo del fruto",
+        "Tejido del fruto aparentemente deformado en la zona afectada"
+      ],
+      "severidad": "Media",
+      "confianza": 0.74,
+      "razonamiento": "La imagen muestra un fruto de tomate con manchas pardas, secas y hundidas concentradas en el extremo del fruto, con aspecto corchoso y necrosado. La planta alrededor se ve mayormente verde y no se observan daños foliares evidentes en esta toma.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "54.jpg",
+    "real": "Bacterial Spot",
+    "cultivo_detectado": "General",
+    "agente_usado": "agente-diagnostico",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Frutos con áreas blanquecinas a amarillentas",
+        "Decoloración localizada en la superficie del fruto",
+        "Lesiones superficiales amplias en frutos maduros",
+        "Aspecto compatible con daño fisiológico en la fruta"
+      ],
+      "severidad": "Media",
+      "confianza": 0.76,
+      "razonamiento": "Se observan frutos de tomate con zonas claras, amarillentas y descoloridas en la superficie, sin signos evidentes de moho, pudrición húmeda o lesiones típicas de una infección fúngica o bacteriana. El patrón visual es más compatible con un daño fisiológico en el fruto que con una enfermedad claramente identificable.",
+      "requiere_revision_humana": false
+    }
+  }
+]
