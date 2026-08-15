@@ -44,6 +44,12 @@ src/backend/golden_set_2/
 src/backend/golden_set_3/
 *.pt
 
+# Evaluacion offline con golden set
+src/backend/anon_imagenes.py
+src/backend/labels.csv
+src/backend/test_golden_set*.py
+src/backend/resultados_golden_set*.json
+
 # Claude Code local config
 CLAUDE.md
 .claude/
