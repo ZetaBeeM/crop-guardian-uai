@@ -30,6 +30,18 @@ export interface ApiResponse {
   proxima_revision: string;
 }
 
+/** Documento tal como se guarda en Cosmos y lo devuelve GET /api/historial. */
+export interface HistoryEntry {
+  id: string;
+  agricultor_id: string;
+  nombre_planta: string;
+  cultivo_detectado: string;
+  fecha: string;
+  proxima_revision: string;
+  resultado: DiagnosisResult;
+  tratamiento: AgronomistResult;
+}
+
 export interface PlantSummary {
   nombre_planta: string;
   fecha: string;

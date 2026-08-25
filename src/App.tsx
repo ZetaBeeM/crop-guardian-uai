@@ -11,13 +11,19 @@ import {
   obtenerPlantas,
 } from "./services/api";
 
-import type { ApiResponse, PlantSummary } from "./types/diagnostico";
+import type {
+  ApiResponse,
+  HistoryEntry,
+  PlantSummary,
+} from "./types/diagnostico";
 
 function App() {
   const [result, setResult] = useState<ApiResponse>();
-  const [history, setHistory] = useState<any[]>([]);
+  const [history, setHistory] = useState<HistoryEntry[]>([]);
   const [plants, setPlants] = useState<PlantSummary[]>([]);
   const [historyError, setHistoryError] = useState(false);
+  const [analizando, setAnalizando] = useState(false);
+  const [errorAnalisis, setErrorAnalisis] = useState<string>();
   const [darkMode, setDarkMode] = useState<boolean>(() => {
     const guardado = localStorage.getItem("cropguardian_theme");
     if (guardado) return guardado === "dark";
@@ -47,15 +53,31 @@ function App() {
   }
 
   async function handleUpload(nombre: string, base64: string) {
-    const response = await analizarCultivo(base64, nombre);
+    setAnalizando(true);
+    setErrorAnalisis(undefined);
+    // Limpiar el diagnostico anterior: si este falla, dejarlo en pantalla
+    // haria parecer que corresponde a la foto nueva.
+    setResult(undefined);
 
-    setResult(response);
-
-    await refreshData();
+    try {
+      const response = await analizarCultivo(base64, nombre);
+      setResult(response);
+      await refreshData();
+    } catch (e) {
+      setErrorAnalisis(
+        e instanceof Error ? e.message : "No se pudo analizar la foto.",
+      );
+    } finally {
+      setAnalizando(false);
+    }
   }
 
   useEffect(() => {
-    refreshData();
+    // Carga inicial al montar. La regla apunta a los setState sincronos que
+    // encadenan renders; aqui refreshData es asincrona y solo actualiza el
+    // estado cuando responde la API.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    void refreshData();
   }, []);
 
   return (
@@ -74,7 +96,11 @@ function App() {
 
       <p>Sistema Multiagente para Diagnóstico de Enfermedades en Plantas</p>
 
-      <UploadForm onSubmit={handleUpload} />
+      <UploadForm
+        onSubmit={handleUpload}
+        analizando={analizando}
+        errorAnalisis={errorAnalisis}
+      />
 
       {result && (
         <>
