@@ -1,9 +1,12 @@
+# API
 flask
-flask-cors
-azure-cosmos
 python-dotenv
-pytest
-requests
-torch
-torchvision
-pillow
+gunicorn
+
+# Azure AI Foundry y Cosmos DB
+azure-ai-projects
+azure-identity
+azure-cosmos
+
+# Cliente del modelo local (LM Studio) en crop_router.py
+openai

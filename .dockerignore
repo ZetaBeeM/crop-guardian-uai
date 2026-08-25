@@ -1,0 +1,48 @@
+# Dependencias y build locales (se reconstruyen dentro de la imagen)
+node_modules
+dist
+dist-ssr
+
+# Git y metadatos
+.git
+.gitignore
+.github
+
+# Secretos (.env.example no coincide con estos patrones y no se necesita)
+.env
+*.env
+
+# Cache de Python
+__pycache__
+*.py[cod]
+.pytest_cache
+
+# Entornos virtuales
+iamulticloud
+venv
+.venv
+
+# Datasets y modelos entrenados
+src/backend/golden_set*
+src/backend/training_set*
+src/backend/*.pt
+src/backend/labels.csv
+src/backend/resultados_golden_set*.json
+
+# Evaluacion offline y clasificador PyTorch heredado
+src/backend/anon_imagenes.py
+src/backend/classify_crop.py
+src/backend/crop_classifier.py
+src/backend/crop_classifier_classes.json
+src/backend/train_crop_classifier.py
+
+# Pruebas
+src/backend/test_*.py
+
+# Documentacion y config de editor/herramientas
+README*.md
+CLAUDE.md
+.claude
+.vscode
+.idea
+eslint.config.js
