@@ -1,10 +1,10 @@
 import { useState } from "react";
 
 import { eliminarPlanta } from "../services/api";
-import type { PlantSummary } from "../types/diagnostico";
+import type { HistoryEntry, PlantSummary } from "../types/diagnostico";
 
 interface Props {
-  items: any[];
+  items: HistoryEntry[];
   plants: PlantSummary[];
   error?: boolean;
   onPlantDeleted?: () => void;
@@ -58,7 +58,7 @@ export default function HistoryTable({
       await eliminarPlanta(nombre);
       if (expandida === nombre) setExpandida(null);
       onPlantDeleted?.();
-    } catch (err) {
+    } catch {
       alert("No se pudo eliminar la planta. Intenta nuevamente.");
     } finally {
       setEliminando(null);

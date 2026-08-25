@@ -1,0 +1,35 @@
+# Secretos y entornos locales
+.env
+*.env
+.git
+iamulticloud/
+
+# Cache de Python
+__pycache__/
+*.pyc
+
+# Datasets y resultados de la evaluacion offline
+golden_set/
+golden_set_2/
+golden_set_3/
+training_set/
+training_set_backup/
+labels.csv
+resultados_golden_set.json
+resultados_golden_set_2.json
+resultados_golden_set_3.json
+resultados_golden_set_gpt41mini.json
+
+# Clasificador PyTorch heredado (no se usa en runtime)
+anon_imagenes.py
+crop_classifier.py
+classify_crop.py
+crop_classifier.pt
+crop_classifier_classes.json
+train_crop_classifier.py
+
+# Pruebas
+test_agente.py
+test_golden_set.py
+test_golden_set_2.py
+test_golden_set_3.py

@@ -1,0 +1,457 @@
+[
+  {
+    "archivo": "1.jpg",
+    "resultado": {
+      "planta": "Pimiento (Capsicum spp.)",
+      "enfermedad": "Punteadura bacteriana",
+      "sintomas": [
+        "lesiones decoloradas irregulares en la hoja",
+        "centros de lesiones con necrosis marrón",
+        "lesiones con halos amarillentos",
+        "lesiones pequeñas y diseminadas"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.85,
+      "razonamiento": "Las hojas presentan numerosas lesiones pequeñas de color marrón oscuro con halos amarillentos típicos de punteadura bacteriana, común en plantas de pimiento. Las lesiones no se han expandido a grandes áreas ni causado necrosis total, lo que indica baja severidad.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "10.jpg",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Manchas pequeñas oscuras distribuidas irregularmente",
+        "Daño localizado en la superficie de la hoja",
+        "Decoloración en áreas afectadas"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.55,
+      "razonamiento": "La hoja presenta múltiples pequeñas manchas oscuras que pueden corresponder a algún tipo de daño foliar, posiblemente por infección fúngica o bacteriana, pero no hay características claras para identificar la enfermedad con certeza.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "11.JPG",
+    "resultado": {
+      "planta": "Maíz",
+      "enfermedad": "Mancha de roya (Puccinia spp.)",
+      "sintomas": [
+        "Pústulas rojizas dispersas en la superficie de la hoja",
+        "Áreas verde pálido alrededor de las pústulas"
+      ],
+      "severidad": "Media",
+      "confianza": 0.85,
+      "razonamiento": "La hoja presenta numerosas pústulas de color marrón rojizo típicas de infecciones por roya en cultivos de maíz, con presencia de áreas afectadas y distribución dispersa que indican avance del patógeno, pero sin una destrucción masiva del tejido.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "12.JPG",
+    "resultado": {
+      "planta": "Maíz",
+      "enfermedad": "Mancha de Ramulosis",
+      "sintomas": [
+        "Lesiones pequeñas y marrones",
+        "Lesiones dispersas en la superficie de la hoja",
+        "Lesiones irregulares y pulverulentas"
+      ],
+      "severidad": "Media",
+      "confianza": 0.75,
+      "razonamiento": "La hoja presenta lesiones pequeñas, redondeadas a irregulares, marrones, dispersas con apariencia de manchas polvorientas, características típicas de la mancha de Ramulosis en maíz.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "13.jpg",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "Oídio",
+      "sintomas": [
+        "Presencia de un polvo blanco grisáceo sobre la superficie de una parte de la hoja"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.75,
+      "razonamiento": "La imagen muestra una hoja con una cubierta blanca polvorienta que es característica de un hongo tipo oídio. No se observan daños graves ni necrosis extendida, lo que sugiere un nivel de infección inicial o leve.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "14.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [],
+      "severidad": "Desconocida",
+      "confianza": 0.3,
+      "razonamiento": "La hoja mostrada no presenta manchas, decoloraciones, deformaciones ni signos visibles de enfermedad. Sin embargo, la imagen no contiene información suficiente para identificar la especie de planta o alguna enfermedad específica.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "15.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [],
+      "severidad": "Desconocida",
+      "confianza": 0.4,
+      "razonamiento": "La hoja observada no presenta síntomas visibles claros de enfermedad, como manchas, decoloraciones, perforaciones o deformaciones. Sin embargo, la información visual es limitada para identificar la especie o alguna enfermedad específica.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "16.jpg",
+    "resultado": {
+      "planta": "Plátano",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "presencia de áreas brillantes o plateadas en la superficie de la hoja"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.65,
+      "razonamiento": "La hoja presenta áreas brillantes que podrían indicar daños mecánicos o inicio de una infección foliar, pero no se observan lesiones típicas, manchas necrosadas o patrones claros de enfermedad.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "17.jpg",
+    "resultado": {
+      "planta": "Maíz",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Manchas claras en la hoja",
+        "Presencia de una línea blanca longitudinal"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.65,
+      "razonamiento": "La hoja presenta una mancha clara y una línea blanca longitudinal que no tienen un patrón típico claro de enfermedades foliares comunes en maíz, como manchas necróticas o signos evidentes de hongos o bacterias.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "18.jpg",
+    "resultado": {
+      "planta": "Maíz",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "decoloración irregular",
+        "manchas claras en la hoja"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.65,
+      "razonamiento": "Se observa una hoja ancha de maíz con manchas irregulares claras que podrían ser indicativas de daño o inicio de infección, pero no presentan signos evidentes de necrosis o podredumbre.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "19.jpg",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [],
+      "severidad": "Desconocida",
+      "confianza": 0.4,
+      "razonamiento": "La hoja se observa verde, sin lesiones visibles, decoloraciones, manchas, o deformaciones evidentes que indiquen síntomas claros de enfermedad.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "2.jpg",
+    "resultado": {
+      "planta": "Pimiento",
+      "enfermedad": "Mancha bacteriana",
+      "sintomas": [
+        "manchas pequeñas con borde amarillo",
+        "centro necrótico marrón",
+        "lesiones con aspecto de quemado"
+      ],
+      "severidad": "Media",
+      "confianza": 0.75,
+      "razonamiento": "Se observan manchas foliares con bordes amarillentos y centro necrótico que son características de una infección bacteriana común en pimientos.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "20.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "presencia de polvo blanco fino en la superficie de la hoja"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.65,
+      "razonamiento": "Se observa un recubrimiento blanco-polvoriento uniforme en la superficie foliar, típico de infecciones por mildiu polvoriento, pero sin síntomas más avanzados visibles como necrosis o deformaciones.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "21.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "presencia de puntos amarillentos dispersos"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.55,
+      "razonamiento": "La hoja muestra pequeños puntos amarillentos en la superficie, que pueden ser indicativos de un problema, pero no hay lesiones definidas, necrosis ni deformaciones claras que permitan identificar una enfermedad específica.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "22.jpg",
+    "resultado": {
+      "planta": "Papa",
+      "enfermedad": "Mildiu",
+      "sintomas": [
+        "Área de color verde más oscuro",
+        "Textura arrugada",
+        "Presencia de motas clarasy zonas descoloridas"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.75,
+      "razonamiento": "La hoja presenta áreas de decoloración y textura arrugada, lo que es típico de la infección inicial de mildiu en hojas de papa. No se observan grandes manchas necrosadas ni síntomas muy avanzados.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "23.JPG",
+    "resultado": {
+      "planta": "Papa",
+      "enfermedad": "Mildiu polvoriento",
+      "sintomas": [
+        "presencia de un recubrimiento blanquecino y polvoriento sobre el haz de la hoja"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.85,
+      "razonamiento": "La hoja presenta un recubrimiento blanquecino característico de la infección por mildiu polvoriento, con daño aparente leve sin necrosis significativa visible.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "24.JPG",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Oídio",
+      "sintomas": [
+        "Polvillo blanco en la superficie de la hoja"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.85,
+      "razonamiento": "La hoja presenta un polvillo blanco característico de oídio en la parte superior, común en plantas de tomate. No se observan daños severos ni necrosis, lo que indica un nivel leve.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "25.jpg",
+    "resultado": {
+      "planta": "Rosal",
+      "enfermedad": "Mancha negra",
+      "sintomas": [
+        "Lesiones redondeadas negras en la superficie de la hoja",
+        "Manchas con halo amarillento alrededor",
+        "Lesiones dispersas en la hoja"
+      ],
+      "severidad": "Media",
+      "confianza": 0.85,
+      "razonamiento": "La hoja presenta manchas negras redondeadas con halo amarillento que son características típicas de la mancha negra en rosales, causada por el hongo Diplocarpon rosae. Las lesiones están bien definidas y dispersas en la hoja, lo cual es indicativo de esta enfermedad.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "26.JPG",
+    "resultado": {
+      "planta": "Manzano",
+      "enfermedad": "Tizón del manzano (Venturia inaequalis)",
+      "sintomas": [
+        "Manchas marrones irregulares en la superficie del follaje",
+        "Bordes oscuros en las lesiones",
+        "Lesiones que parecen afectar la integridad del tejido foliar"
+      ],
+      "severidad": "Media",
+      "confianza": 0.75,
+      "razonamiento": "La hoja presenta lesiones marrones con bordes oscuros típicos de infecciones por hongos como Venturia inaequalis, patógeno común en manzano. Las manchas están dispersas pero no parecen en estado de necrosis avanzada.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "27.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Hoja seca o marchita",
+        "Coloración marrón oscura en algunas áreas",
+        "Presencia de posibles manchas irregulares"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.55,
+      "razonamiento": "La hoja muestra partes secas o marchitas y algunas manchas oscuras, pero la imagen no permite identificar con certeza la especie de planta ni la enfermedad específica.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "28.jpg",
+    "resultado": {
+      "planta": "Tomate",
+      "enfermedad": "Tizón tardío (Phytophthora infestans)",
+      "sintomas": [
+        "Manchas grandes marrones oscuras y negras",
+        "Necrosis en el borde de la hoja",
+        "Margen de la hoja con tejido muerto y seco",
+        "Lesión húmeda o empapada en la parte afectada"
+      ],
+      "severidad": "Media",
+      "confianza": 0.75,
+      "razonamiento": "La hoja presenta manchas necróticas oscuras que comienzan en el borde con necrosis avanzada, patrones típicos de tizón tardío en tomate. La textura y coloración de las manchas sugieren daño por un patógeno fúngico o similar, común en esta enfermedad.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "29.JPG",
+    "resultado": {
+      "planta": "Fresa",
+      "enfermedad": "Botritis (moho gris)",
+      "sintomas": [
+        "manchas marrones en el borde de la hoja",
+        "decoloración y necrosis en la zona afectada",
+        "áreas secas y marchitas"
+      ],
+      "severidad": "Media",
+      "confianza": 0.75,
+      "razonamiento": "La hoja presenta manchas marrones con necrosis en los bordes y una apariencia marchita, características típicas de Botritis en plantas de fresa.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "3.jpg",
+    "resultado": {
+      "planta": "Berenjena",
+      "enfermedad": "Antracnosis",
+      "sintomas": [
+        "lesiones pequeñas, redondeadas y hundidas en la superficie superior de la hoja",
+        "centros de lesiones de color claro con bordes oscuros",
+        "lesiones similares en la superficie inferior de la hoja",
+        "lesiones diseminadas en varias áreas de la hoja"
+      ],
+      "severidad": "Media",
+      "confianza": 0.85,
+      "razonamiento": "La imagen muestra hojas con manchas caracterizadas por áreas redondeadas, hundidas, con centros claros y bordes oscuros en ambas superficies de la hoja. Este patrón es típico de la antracnosis en berenjena, una enfermedad fúngica común en esta planta. La presencia de múltiples lesiones distribuidas en toda la hoja y la forma de las manchas corroboran el diagnóstico.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "30.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "marchitez",
+        "necrosis extensa",
+        "decoloración marrón y amarillenta"
+      ],
+      "severidad": "Alta",
+      "confianza": 0.5,
+      "razonamiento": "Se observa una hoja con daño extensivo de tejido que está mayormente necrosado y deshidratado, con coloración marrón oscuro y bordes marchitos; sin otros detalles específicos para identificar la especie o patógeno causante.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "4.jpg",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "manchas necróticas elongadas en los bordes de la hoja",
+        "decoloración marrón en áreas afectadas",
+        "presencia de puntos negros dispersos"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.55,
+      "razonamiento": "La hoja presenta algunos daños visibles principalmente en los bordes con manchas decoloradas y puntos negros que pueden estar asociados a una infección fúngica o bacteriana, pero no hay una sintomatología clara que permita identificar la planta o enfermedad específica de manera segura.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "5.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "Manchas necróticas oscuras en el borde de la hoja",
+        "Deformación y arrugamiento de la hoja",
+        "Áreas secas y marrones"
+      ],
+      "severidad": "Media",
+      "confianza": 0.55,
+      "razonamiento": "Se observan manchas oscuras principalmente en el borde de la hoja, con áreas secas y signos claros de daño tisular. La deformación y el arrugamiento sugieren un problema patológico o ambiental. Sin embargo, la especie de planta y la enfermedad no se pueden identificar claramente solo con esta hoja.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "6.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "No identificada",
+      "sintomas": [
+        "manchas pequeñas oscuras distribuidas irregularmente",
+        "áreas descoloridas alrededor de las manchas",
+        "daño visible en el tejido foliar",
+        "posible necrosis en algunas áreas"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.55,
+      "razonamiento": "La hoja presenta manchas oscuras distribuidas de forma irregular que podrían ser indicativas de una infección fúngica o bacteriana, pero la forma y patrón específico de los síntomas no son suficientemente claros para una identificación precisa. No se observan síntomas de daño severo o extensión masiva.",
+      "requiere_revision_humana": true
+    }
+  },
+  {
+    "archivo": "7.jpg",
+    "resultado": {
+      "planta": "Limón",
+      "enfermedad": "Oídio",
+      "sintomas": [
+        "Presencia de un polvo blanco en la superficie de la hoja",
+        "Manchas blanquecinas que cubren gran parte de la hoja",
+        "Ligera deformación en los bordes de la hoja"
+      ],
+      "severidad": "Media",
+      "confianza": 0.75,
+      "razonamiento": "La observación del polvo blanco, característico del oídio, cubre una superficie considerable de la hoja y afecta su aspecto general sin estar completamente necrosada.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "8.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "Oídio",
+      "sintomas": [
+        "presencia de un polvo blanco-grisáceo sobre la superficie de la hoja",
+        "manchas irregulares blancas distribuidas principalmente en el centro y bordes",
+        "decoloración de partes de la hoja"
+      ],
+      "severidad": "Media",
+      "confianza": 0.75,
+      "razonamiento": "La hoja muestra una cobertura difusa de un polvo blanco-grisáceo típico de oídio, que suele manifestarse como manchas blanquecinas en hojas. No hay signos evidentes de necrosis avanzada ni pérdida total del tejido.",
+      "requiere_revision_humana": false
+    }
+  },
+  {
+    "archivo": "9.JPG",
+    "resultado": {
+      "planta": "Desconocida",
+      "enfermedad": "Oídio",
+      "sintomas": [
+        "presencia de polvo blanco grisáceo sobre la superficie de la hoja"
+      ],
+      "severidad": "Leve",
+      "confianza": 0.75,
+      "razonamiento": "La hoja presenta un recubrimiento blanquecino y polvoriento típico de una infección por oídio. No se observan daños extensos ni necrosis visibles en esta imagen, indicando una infección posiblemente en etapa inicial.",
+      "requiere_revision_humana": false
+    }
+  }
+]

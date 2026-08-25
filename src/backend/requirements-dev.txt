@@ -1,0 +1,5 @@
+# Dependencias solo de desarrollo. La imagen de produccion instala unicamente
+# requirements.txt.
+-r requirements.txt
+
+pytest
