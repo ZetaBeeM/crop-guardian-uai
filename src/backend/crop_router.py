@@ -17,7 +17,8 @@ from openai import OpenAI
 
 load_dotenv()
 
-LMSTUDIO_BASE_URL = "http://127.0.0.1:1234/v1"
+# Desde un contenedor hay que apuntar al host (host.docker.internal).
+LMSTUDIO_BASE_URL = os.getenv("LMSTUDIO_BASE_URL", "http://127.0.0.1:1234/v1")
 LMSTUDIO_MODEL = "google/gemma-4-e4b"
 
 CROPS = ["Cerezas", "Tomates", "Uvas"]
@@ -39,7 +40,8 @@ PROMPT = (
     "sin texto adicional."
 )
 
-client = OpenAI(base_url=LMSTUDIO_BASE_URL, api_key="lm-studio")
+# Con timeout, si LM Studio no responde se cae al agente general rapido.
+client = OpenAI(base_url=LMSTUDIO_BASE_URL, api_key="lm-studio", timeout=10.0)
 
 
 def extract_crop(respuesta: str) -> str | None:
